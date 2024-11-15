@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* */
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: "Bai Jamjuree", sans-serif;
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+}
+.container{
+    padding-top: 50px;
+}
+.logo-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.logo-one img{
+    width: 100px;
+}
+.text-one{
+    display: grid;
+    gap: 15px;
+}
+.text-one h1{
+    text-align: center;
+    color: hsl(210, 10%, 33%);  
+}
+.track{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.track p{
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+    width: 542px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.btn-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding-bottom: 100px;
+}
+.button-1{
+    padding: 12px 40px 12px 40px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(38, 186, 164);
+    box-shadow: 0px 3px #25ab97;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+.button-2{
+    padding: 12px 40px 12px 40px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 3px #5666df;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+.text-two h1{
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    padding-bottom: 20px;
+}
+.snippest{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 90px;
+}
+.snippest p{
+    width: 613px;
+    color: hsl(201, 11%, 66%);
+    font-weight: 500;
+    font-size: 15px;
+}
+.item-two{
+    display: flex;
+    padding-bottom: 170px;
+}
+.computer {
+    position: relative;
+    left: -120px;
+}
+.text-three{
+    gap: 10px;
+    padding-top: 80px;
+}
+.quick{
+    display: grid;
+    gap: 12px;
+    padding-bottom: 70px;
+}
+.quick h1{
+    color: hsl(210, 10%, 33%);
+    font-size: 22px;
+}
+.quick p{
+    color: hsl(201, 11%, 66%);
+    width: 360px;
+}
+.icloud{
+    display: grid;
+    gap: 12px;
+    padding-bottom: 70px;
+}
+.icloud h1{
+    color: hsl(210, 10%, 33%);
+    font-size: 22px;
+}
+.icloud p{
+    color: hsl(201, 11%, 66%);
+    width: 360px;
+}
+.complete{
+    display: grid;
+    gap: 12px;
+    padding-bottom: 40px;
+}
+.complete h1{
+    color: hsl(210, 10%, 33%);
+    font-size: 22px;
+}
+.complete p{
+    color: hsl(201, 11%, 66%);
+    width: 360px;
+}
+.item-three{
+    padding-bottom: 90px;
+}
+.text-four h1{
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+    padding-bottom: 20px;
+}
+.clipboard{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.clipboard p{
+    color: hsl(201, 11%, 66%);
+    width: 600px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.text-five h1{
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+    padding-bottom: 20px;
+}
+.productivity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productivity p{
+    color: hsl(201, 11%, 66%);
+}
+.item-four{
+    display: grid;
+    gap: 100px;
+    padding-bottom: 100px;
+}
+.elem-one{
+    gap: 25px;
+}
+.text-6{
+    gap: 20px;
+    display: grid;
+}
+.blacklist-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blacklist-image img{
+    width: 42px;
+}
+.text-6 h1{
+    color: hsl(210, 10%, 33%);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.ensure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 25px;
+}
+.ensure p{
+    color: hsl(201, 11%, 66%);
+    width: 350px;
+    text-align: center;
+}
+.text-7{
+    gap: 14px;
+    display: grid;
+}
+.icon-text-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -15px;
+}
+.icon-text-image img{
+    width: 30px;
+}
+.text-7 h1{
+    color: hsl(210, 10%, 33%);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: -5px;
+}
+.formatting{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 25px;
+}
+.formatting p{
+    color: hsl(201, 11%, 66%);
+    width: 350px;
+    text-align: center;
+}
+
+.text-8{
+    gap: 18px;
+    display: grid;
+}
+.preview-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -15px;
+}
+.preview-image img{
+    width: 30px;
+}
+.text-8 h1{
+    color: hsl(210, 10%, 33%);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: -3px;
+}
+.preview-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 25px;
+}
+.preview-text p{
+    color: hsl(201, 11%, 66%);
+    width: 350px;
+    text-align: center;
+}
+.elem-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.elem-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.elem-two{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.item-five{
+    padding-bottom: 20px;
+    gap: 20px;
+    display: grid;
+}
+.text-9{
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+}
+.Available-text{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 20px;
+}
+.Available-text p{
+    color: hsl(201, 11%, 66%);
+    width: 600px;
+}
+.btn-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding-bottom: 100px;
+}
+.button-3{
+    padding: 12px 40px 12px 40px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(38, 186, 164);
+    box-shadow: 0px 3px #25ab97;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+.button-4{
+    padding: 12px 40px 12px 40px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 3px #5666df;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+.item-six{
+    width: 100%;
+    
+}
+.foutter{
+    display: flex; 
+    gap: 200px;
+    height: 140px;
+}
+.logo-two{
+    display: flex;
+    align-items: center;
+}
+.logo-two img{
+    width: 65px;   
+}
+.section{
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+.section p{
+    font-weight: 500;
+}
+.faq p{
+    line-height: 35px;
+    color: hsl(210, 10%, 33%);
+    cursor: pointer;
+}
+.privacy p{
+    line-height: 35px;
+    color: hsl(210, 10%, 33%);
+    cursor: pointer;
+}
+.install p{
+    line-height: 35px;
+    color: hsl(210, 10%, 33%);
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+@media screen and (max-width: 375px){
+    body{  
+        display: flex;
+        width: auto;
+        background: url(images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .container{
+        align-items: center;
+    }
+    .title-one {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .title-one h1{
+        width: 324px;
+    }
+    .track{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .track p{
+        width: 296px;
+    }
+    .btn-one{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    .title-two{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .title-two h1{
+        width: 288px;
+    }
+    .snippest{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .snippest p{
+        width: 282px;
+    }
+    .item-two{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    .computer{
+        display: block;
+        left: 0px;
+        margin: 0px auto;
+    }
+    .computer img{
+        display: flex;
+        width: 320px;
+    }
+    .quick h1{
+        text-align: center;
+    }
+    .quick p{
+        text-align: center;
+    }
+    .icloud h1{
+        text-align: center;
+    }
+    .icloud p{
+        text-align: center;
+    }
+    .complete h1{
+        text-align: center;
+    }
+    .complete p{
+        text-align: center;
+    }
+    .title-three{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .title-three h1{
+        width: 280px;
+    }
+    .clipboard{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .clipboard p{
+        width: 300px;
+    }
+    .phone{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .phone img{
+        width: 320px;
+    }
+    .title-4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .title-4 h1{
+        width: 300px;
+    }
+    .productivity{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .productivity p{
+        width: 250px;
+    }
+    .elem-one{
+        display: grid;
+        gap: 60px;
+    }
+    .elem-two{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    .title-five{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .title-five h1{
+        width: 336px;
+    }
+    .Available-text p{
+        width: 306px;
+    }
+    .btn-two{
+        display: grid;
+    }
+    .foutter{
+        justify-items: center;
+        display:grid;
+        gap: 20px;
+    }
+    .section{
+        display: inline;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .icons{
+        padding-bottom: 20px;
+    }
+}
+@media screen and (min-width: 376px) and (max-width: 1440px) {
+    body {
+        background: url(images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .container {
+        padding: 20px 40px; 
+    }
+    .logo-one img {
+        width: 90px; 
+    }
+    .track p {
+        width: 500px; 
+        font-size: 16px; 
+    }
+    .btn-one {
+        gap: 18px; 
+    }
+    .computer img {
+        width: 450px; 
+    }
+    .snippest p {
+        width: 520px; 
+    }
+    .quick p, .icloud p, .complete p {
+        width: 380px; }
+    .clipboard p {
+        width: 550px;
+    }
+    .phone img {
+        width: 420px; 
+    }
+    .productivity p {
+        width: 350px; 
+    }
+    .Available-text p {
+        width: 480px; 
+    }
+    .foutter {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+    }
+    .section {
+        gap: 70px; 
+    }
+    .icons {
+        gap: 20px; 
+    }
+}
